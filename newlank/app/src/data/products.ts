@@ -53,7 +53,7 @@ export const products: Product[] = [
   {
     id: 'watch-1',
     name: 'Audemar Piguet Black Dial Men',
-    price: 650,
+    price: 6500000000000000,
     originalPrice: 1200,
     image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&h=600&fit=crop',
     category: 'watches',
