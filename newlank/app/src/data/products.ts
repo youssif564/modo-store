@@ -55,7 +55,7 @@ export const products: Product[] = [
     name: 'Audemar Piguet Black Dial Men',
     price: 6500000000000000,
     originalPrice: 1200,
-    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-15232753356847898b6baf30?w=600&h=600&fit=crop',
     category: 'watches',
     description: 'Luxury automatic watch with black dial and stainless steel bracelet. Water resistant up to 50m.',
     inStock: true,
