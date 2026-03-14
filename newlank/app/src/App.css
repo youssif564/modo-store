@@ -1,0 +1,199 @@
+/* MODO E-commerce Styles */
+
+/* Red/Coral Header */
+.header-red {
+  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+}
+
+/* Black and Red Theme */
+.text-modo-red {
+  color: #e74c3c;
+}
+
+.bg-modo-red {
+  background-color: #e74c3c;
+}
+
+.bg-modo-black {
+  background-color: #1a1a1a;
+}
+
+.border-modo-red {
+  border-color: #e74c3c;
+}
+
+/* Hover effects */
+.hover-modo-red:hover {
+  background-color: #c0392b;
+}
+
+/* Product card hover */
+.product-card {
+  transition: all 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Sale badge */
+.sale-badge {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 4px 12px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Price styling */
+.price-current {
+  color: #1a1a1a;
+  font-weight: bold;
+}
+
+.price-original {
+  color: #999;
+  text-decoration: line-through;
+  margin-left: 8px;
+}
+
+/* Category card */
+.category-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.category-card img {
+  transition: transform 0.5s ease;
+}
+
+.category-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Hero banner */
+.hero-banner {
+  background: linear-gradient(135deg, #fff5f5 0%, #ffffff 100%);
+}
+
+/* Cash on delivery button */
+.cod-button {
+  background: linear-gradient(135deg, #27ae60 0%, #219a52 100%);
+  color: white;
+  font-weight: bold;
+  padding: 16px 32px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.cod-button:hover {
+  background: linear-gradient(135deg, #219a52 0%, #1e8449 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(39, 174, 96, 0.3);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e74c3c;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c0392b;
+}
+
+/* Mobile menu */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  z-index: 100;
+  padding: 20px;
+}
+
+/* Feature icons */
+.feature-icon {
+  font-size: 2rem;
+  margin-right: 12px;
+}
+
+/* Newsletter input */
+.newsletter-input {
+  border: 2px solid #1a1a1a;
+  padding: 12px 16px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.newsletter-input:focus {
+  border-color: #e74c3c;
+}
+
+/* Policy pages */
+.policy-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.policy-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+  color: #1a1a1a;
+}
+
+.policy-content h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  color: #e74c3c;
+}
+
+.policy-content p {
+  margin-bottom: 16px;
+  line-height: 1.8;
+  color: #444;
+}
+
+.policy-content ul {
+  margin-bottom: 16px;
+  padding-left: 24px;
+}
+
+.policy-content li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+  color: #444;
+}
